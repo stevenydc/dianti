@@ -1,0 +1,3 @@
+DIR_UP = 1
+DIR_DOWN = -1
+DIR_NONE = 0
