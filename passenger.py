@@ -1,5 +1,10 @@
 from constants import DIR_UP, DIR_DOWN, DIR_NONE
 class Passenger():
+    '''
+    Knows which floor he/she currently is on and desired destination floor
+    Can choose to enter/leave elevator
+    Can give commands to the elevator he/she is in
+    '''
     def __init__(self, floor, destination):
         self.curfloor = floor
         self.destination = destination
